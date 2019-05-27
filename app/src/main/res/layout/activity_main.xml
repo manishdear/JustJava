@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name"
+            android:hint="Name"
             android:layout_marginBottom="16dp"/>
 
         <TextView
@@ -75,7 +75,7 @@
                 android:id="@+id/quantity_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="2"
+                android:text="1"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
