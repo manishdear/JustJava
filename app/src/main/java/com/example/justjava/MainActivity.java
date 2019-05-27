@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         double total_bill = calculatePrice(noOfCoffe, isWhipped, isTopping);
         String summary = orderSummary(total_bill, isWhipped, isTopping);
         displaySummary(summary);
-        String[] emailId = {"manishdear@gmail.com", "studmanishshah@gmail.com"};
+        String[] emailId = {"manishdear11@gmail.com", "studmanishshah@gmail.com"};
         String subject = "A coffe order from " + getName();
         composeEmail(emailId, subject, summary);
     }
